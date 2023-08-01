@@ -1,0 +1,77 @@
+/* Remove the margin and padding from the body and the Navbar */
+ body, .navbar-custom {
+  margin: 0;
+  padding:0 ;
+}
+
+/* Set the background color of the Navbar */
+.navbar-custom {
+  background-color: rgb(240, 255, 255);
+  box-shadow: 5px 10px 10px #b1adad;
+ 
+}
+
+.navAccountResponsive {
+  display: flex; /* Use flexbox to arrange icon and text in a row */
+  align-items: center; /* Vertically align the icon and text in the center */
+}
+
+.navAccountResponsive i {
+  margin-right: 5px; /* Add some space between the icon and text */
+}
+
+/* Remove the margin from the login text to align it with the icon */
+.navAccountText {
+  margin: 0;
+}
+
+.navbar-brand {
+  padding-left: 25px;
+  padding-right: 25px;
+} 
+
+.loginButton {
+  background-color: #116d6e;
+  color: #ffffff;
+  padding: 8px 16px;
+  margin: 4px 0px 4px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.loginButton:hover {
+  background-color: #499d9e;
+  color:rgb(190, 183, 142)f;
+}
+
+.loginButton i {
+  margin-right: 5px;
+}
+
+/* For screens between 577px and 768px wide (small devices - larger phones and small tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Example of custom styles for small devices */
+
+  .navbar-brand {
+    padding-left: 15px; /* Adjust the left padding for small devices */
+    padding-right: 15px; /* Adjust the right padding for small devices */
+  }
+
+  .loginButton {
+    margin: 4px 0px; /* Adjust the margin for small devices */
+  }
+
+  .loginButton i {
+    margin-right: 4px; /* Adjust the margin for small devices */
+  }
+}
+
+/* For screens between 769px and 1024px wide (medium devices - larger tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Example of custom styles for medium devices */
+}
+
+/* For screens larger than 1024px (large devices - desktops and larger) */
+@media (min-width: 1025px) {
+  /* Example of custom styles for desktops */
+}

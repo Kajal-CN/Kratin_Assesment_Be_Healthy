@@ -1,0 +1,189 @@
+.my-section {
+  background-color: #116d6e;
+  color: #ececf1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-links a {
+  color: #ececf1;
+}
+
+.footer-links {
+  background-color: #116d6e;
+  color: #ececf1;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.footer-links li {
+  margin-right: 20px;
+}
+
+.footer-links a {
+  color: #ececf1;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-info {
+  text-align: right;
+  background-color: #116d6e;
+  color: #ececf1;
+  float: right;
+  margin-left: 980px;
+}
+
+.text-center {
+  text-align: center;
+}
+.my-section a , container{
+  color: #ececf1;
+  
+}
+.span-container{
+  margin-left: 25px;
+}
+
+li{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.my-section-2{
+  background-color: #116d6e;
+  margin-top: -50px;
+  color: #ffffff;
+  padding: 12px;
+  font: 16px -apple-system ;
+  
+}
+ .container{
+  width: 100%;
+ }
+/* For screens up to 576px wide (phones) */
+@media (max-width: 576px) {
+  .my-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .span-container {
+    margin-bottom: 10px;
+  }
+
+  .footer-links {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .footer-info {
+    text-align: center;
+    margin-left: 50px; /* Adjust left margin */
+    margin-right: 50px; /* Adjust right margin */
+    margin-top: 10px; /* Add margin-top to center the div */
+  }
+  
+  .my-section-2 {
+    margin-top: 0;
+  }
+
+  .footer-links ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-links li {
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+}
+
+/* For screens between 577px and 768px wide (small devices - larger phones and small tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Example of custom styles for small devices */
+
+  .my-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .span-container {
+    margin-bottom: 10px;
+  }
+
+  .footer-links {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .footer-info {
+    text-align: center;
+    margin-left: 50px; /* Adjust left margin */
+    margin-right: 50px; /* Adjust right margin */
+    margin-top: 10px; /* Add margin-top to center the div */
+  }
+  
+  .my-section-2 {
+    margin-top: 0;
+  }
+
+  .footer-links ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-links li {
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+}
+
+/* For screens between 769px and 1024px wide (medium devices - larger tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Example of custom styles for medium devices */
+
+  .my-section {
+    justify-content: space-around;
+  }
+
+  .span-container {
+    margin-bottom: 0;
+  }
+
+  .footer-links {
+    margin-bottom: 0;
+  }
+
+  .footer-info {
+    text-align: center;
+    margin-left: 50px; /* Adjust left margin */
+    margin-right: 50px; /* Adjust right margin */
+    margin-top: 10px; /* Add margin-top to center the div */
+  }
+}
+
+/* For screens larger than 1024px (large devices - desktops and larger) */
+@media (min-width: 1025px) {
+  /* Example of custom styles for desktops */
+
+  .my-section {
+    justify-content: space-between;
+  }
+
+  .span-container {
+    margin-bottom: 0;
+  }
+
+  .footer-links {
+    margin-bottom: 0;
+  }
+}
